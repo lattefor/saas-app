@@ -15,6 +15,8 @@ enum Subject {
   economics = "economics",
   finance = "finance",
   business = "business",
+  mock = "mock", 
+  system = "system"
 }
 
 type Companion = Models.DocumentList<Models.Document> & {
